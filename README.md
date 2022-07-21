@@ -16,7 +16,7 @@ https://api20220721112833.azurewebsites.net/swagger/index.html
 SQL Server database is configured on Azure. 
 If you'd like to run the application locally, just clone the repository and use Visual Studio to run it with .NET Core Web API and Swagger. Edit the the connection string to point to your local database server. As I am using EF Code first approach, application will create the database on execution. 
 
-Uses xUnit as the test library for creating the test project
+Uses xUnit as the test library for the test project
 
 
 API documentation JSON file is available on below url:
