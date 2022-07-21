@@ -43,8 +43,8 @@ namespace DataLayer.Controllers
         [Route("/api/GetMaximumNumberOfFreeDays")]
         public int GetMaximumNumberOfFreeDays(string countryCode, int year)
         {
-            var holidaysForYear = _countriesDataProvider.GetHolidaysForYear(countryCode, year).OrderBy(s => s.Date.Month);
-            return 15;
+            //Need to implement Logic to calculate the maximum number of free days in a row 
+            return 5;
         }
 
         [HttpGet]
